@@ -1,5 +1,9 @@
+body {
+  background-image:url(https://c1.staticflickr.com/9/8336/8144344750_51e690548c.jpg);
+}
 #background {
-  background-color: #607d8b;
+  background-color: #ffab40;
+  padding-top: 20px;
 }
 #input1 {
   border: 2px solid teal;
