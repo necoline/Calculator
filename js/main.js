@@ -28,7 +28,7 @@ function divOp() {
   var input1 = document.getElementById("input1").value;
   var input2 = document.getElementById("input2").value;
   var i1Di2 = parseFloat(input1) / parseFloat(input2);
-  if (input2 === "0") {
+  if (parseFloat(input2) === 0) {
     alert("You cannot divide by zero");
   }
   else{
